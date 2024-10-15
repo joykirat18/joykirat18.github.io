@@ -3,113 +3,97 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{dutta2024think,
+  title={How to think step-by-step: A mechanistic understanding of chain-of-thought reasoning},
+  author={Dutta*, Subhabrata and Singh*, Joykirat and Chakrabarti, Soumen and Chakraborty, Tanmoy},
+  year={2024},
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+  abstract={Despite superior reasoning prowess demonstrated by Large Language Models (LLMs) with Chain-of-Thought (CoT) prompting, a lack of understanding prevails around the internal mechanisms of the models that facilitate CoT generation. This work investigates the neural sub-structures within LLMs that manifest CoT reasoning from a mechanistic point of view. From an analysis of Llama-2 7B applied to multistep reasoning over fictional ontologies, we demonstrate that LLMs deploy multiple parallel pathways of answer generation for step-bystep reasoning. These parallel pathways provide sequential answers from the input question context as well as the generated CoT. We observe a functional rift in the middle layers of the LLM. Token representations in the initial half remain strongly biased towards the pretraining prior, with the in-context prior taking over in the later half. This internal phase shift manifests in different functional components: attention heads that write the answer token appear in the later half, attention heads that move information along ontological relationships appear in the initial half, and so on. To the best of our knowledge, this is the first attempt towards mechanistic investigation of CoT reasoning in LLMs.},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  arxiv={2402.18312},
+  award={Accepeted at TMLR Journal 2024},
+  award_name={TMLR'24},
+  preview={tmlr.png},
+    annotation={* Equal Contribution},
+
 }
 
-@book{przibram1967letters,
+@inproceedings{dutta2024frugal,
+  title={Frugal LMs Trained to Invoke Symbolic Solvers Achieve Parameter-Efficient Arithmetic Reasoning},
+  author={Dutta*, Subhabrata and Singh*, Joykirat and Pandey*, Ishan  and Manchanda, Sunny and Chakrabarti, Soumen and Chakraborty, Tanmoy},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={16},
+  pages={17951--17959},
+  year={2024},
+  selected={true},
+  abstract={Large Language Models (LLM) exhibit zero-shot mathematical reasoning capacity as a behavior emergent with scale, commonly manifesting as chain-of-thoughts (CoT) reasoning. However, multiple empirical findings suggest that this prowess is exclusive to LLMs with exorbitant sizes (beyond 50 billion parameters). Meanwhile, educational neuroscientists suggest that symbolic algebraic manipulation be introduced around the same time as arithmetic word problems to modularize language-to-formulation, symbolic manipulation of the formulation, and endgame arithmetic. In this paper, we start with the hypothesis that much smaller LMs, which are weak at multi-step reasoning, can achieve reasonable arithmetic reasoning if arithmetic word problems are posed as a formalize-then-solve task. In our architecture, which we call SyReLM, the LM serves the role of a translator to map natural language arithmetic questions into a formal language (FL) description. A symbolic solver then evaluates the FL expression to obtain the answer. A small frozen LM, equipped with an efficient low-rank adapter, is capable of generating FL expressions that incorporate natural language descriptions of the arithmetic problem (e.g., variable names and their purposes, formal expressions combining variables, etc.). We adopt policy-gradient reinforcement learning to train the adapted LM, informed by the non-differentiable symbolic solver. This marks a sharp departure from the recent development in tool-augmented LLMs, in which the external tools (e.g., calculator, Web search, etc.) are essentially detached from the learning phase of the LM. SyReLM shows massive improvements (e.g., +30.65 absolute point improvement in accuracy on the SVAMP dataset using GPT-J 6B model) over base LMs, while keeping our testbed easy to diagnose, interpret and within reach of most researchers.},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  award_name={AAAI'24},
+  award={Oral Presentation at AAAI'24},
+  preview={frugal.png},
+      annotation={* Equal Contribution},
+      arxiv={2312.05571}
+
+}
+
+@article{singh2024exposing,
+  title={Exposing the Achilles' Heel: Evaluating LLMs Ability to Handle Mistakes in Mathematical Reasoning},
+  author={Singh, Joykirat and Nambi, Akshay and Vineet, Vibhav},
+  journal={arXiv preprint arXiv:2406.10834},
+  year={2024},
+  selected={true},
+  abstract={Large Language Models (LLMs) have transformed the approach to solving Math Word Problems (MWPs), especially in educational domains. However, current evaluations focus heavily on final answer accuracy, often neglecting the critical aspect of reasoning. This work addresses that gap by assessing LLMs’ abilities to detect and correct reasoning mistakes. We introduce a novel dataset, MWP-MISTAKE, which includes MWPs with both correct and incorrect reasoning steps generated via rule-based methods and smaller language models. Our benchmarking provides key insights into the strengths and weaknesses of state-of-the-art models, including closed-source, open-source, and fine-tuned variants. While GPT-4o consistently outperforms other models like GPT-4 , GPT-3.5Turbo , and smaller models, it still struggles to reliably detect mistakes across simple and complex problems. The significant performance drop on more challenging, unseen problems underscores the limitations of current LLMs in handling deeper reasoning tasks, revealing a need for improved generalization and robustness.14},
+  bibtex_show={true},
+  award_name={Preprint},
+  award={Under Review at ICLR'24},
+  preview={reasoning.png},
+  arxiv={2406.10834},
+
+}
+
+@article{singh2024eros,
+  title={EROS: Entity-Driven Controlled Policy Document Summarization},
+  author={Singh*, Joykirat and Fazili*, Sehban and Jain, Rohan and Akhtar, Md Shad},
+  journal={arXiv preprint arXiv:2403.00141},
+  year={2024},
+  selected={true},
+  abstract={Privacy policy documents have a crucial role in educating individuals about the collection, usage, and protection of users’ personal data by organizations. However, they are notorious for their lengthy, complex, and convoluted language especially involving privacy-related entities. Hence, they pose a significant challenge to users who attempt to comprehend organization’s data usage policy. In this paper, we propose to enhance the interpretability and readability of policy documents by using controlled abstractive summarization – we enforce the generated summaries to include critical privacy-related entities (e.g., data and medium) and organization’s rationale (e.g., target and reason) in collecting those entities. To achieve this, we develop PD-Sum, a policy-document summarization dataset with marked privacy-related entity labels. Our proposed model, EROS, identifies critical entities through a span-based entity extraction model and employs them to control the information content of the summaries using proximal policy optimization (PPO). Comparison shows encouraging improvement over various baselines. Furthermore, we furnish qualitative and human evaluations to establish the efficacy of EROS.},
+  bibtex_show={true},
+  award_name={LREC-COLING'24},
+  award={Accepeted at LREC-COLING'24},
+  preview={eros.png},
+      annotation={* Equal Contribution},
+      arxiv={2403.00141}
+
+
+}
+@article{singh2024mechanistic,
+  title={Mechanistic Behavior Editing of Language Models},
+  author={Singh*, Joykirat and Dutta*, Subhabrata and Chakraborty, Tanmoy},
+  journal={arXiv preprint arXiv:2410.04277},
+  year={2024},
+  selected={true},
+  abstract={Large Language Models trained on web-scale text acquire language generation abilities that can solve a wide range of tasks, particularly when task knowledge is refined into the generative prior using in-context examples. However, spuri- ous features learned from noisy data hinder their generalizability. Supervised finetuning can introduce task specificity, but introduce data inefficiency. Prior studies indicate that (i) noisy neural circuitries coexist with generalizable ones within LLMs, and (ii) finetuning typically enhances (or suppresses) existing abil- ities without introducing newer ones. Building upon these, we propose TaRot, a novel method for task adaptation. TaRot intervenes in the neural circuitries using learnable rotation matrices that are optimized using Bayesian Optimiza- tion, on labelled samples in the order of standard few-shot prompting exam- ples. Experiments on multiple classification and generation tasks using LLMs of varying sizes reveal the efficacy of TaRot, improving upon both zero- as well as few-shot performance, with average improvements (across models and tasks) of 23.81% and 11.15%, respectively.},
+    bibtex_show={true},
+  award_name={Preprint},
+  award={Under Review at ICLR'24},
+  preview={behaviorEditing.png},
+      annotation={* Equal Contribution},
+      arxiv={2410.04277}
+
+}
+
+@article{agarwal2024promptwizard,
+  title={PromptWizard: Task-Aware Agent-driven Prompt Optimization Framework},
+  author={Agarwal, Eshaan and Singh, Joykirat and Dani, Vivek and Magazine, Raghav and Ganu, Tanuja and Nambi, Akshay},
+  journal={arXiv preprint arXiv:2405.18369},
+  year={2024},
+  selected={true},
+  abstract={Large language models (LLMs) have transformed AI across diverse domains, with prompting being central to their success in guiding model outputs. However, man- ual prompt engineering is both labor-intensive and domain-specific, necessitating the need for automated solutions. We introduce PromptWizard, a novel, fully automated framework for discrete prompt optimization, utilizing a self-evolving, self-adapting mechanism. Through a feedback-driven critique and synthesis pro- cess, PromptWizard achieves an effective balance between exploration and ex- ploitation, iteratively refining both prompt instructions and in-context examples to generate human-readable, task-specific prompts. This guided approach systemati- cally improves prompt quality, resulting in superior performance across 45 tasks. PromptWizard excels even with limited training data, smaller LLMs, and various LLM architectures. Additionally, our cost analysis reveals a substantial reduction in API calls, token usage, and overall cost, demonstrating PromptWizard’s efficiency, scalability, and advantages over existing prompt optimization strategies.},
+  bibtex_show={true},
+  award_name={Preprint},
+  award={Under Review at ICLR'24},
+  arxiv={2405.18369},
+  preview={PW.png}
 }
