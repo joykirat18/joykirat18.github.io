@@ -15,9 +15,9 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I'm **Joykirat Singh**, currently a Research Fellow at Microsoft Research India, working under the guidance of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). I graduated in 2023 with a Bachelor's degree from the Indraprastha Institute of Information Technology, Delhi, where I collaborated with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en) on various projects. 
+I'm **Joykirat Singh**, currently a Research Fellow at Microsoft Research India, working under the guidance of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). I graduated in 2023 with a Bachelor's degree from the Indraprastha Institute of Information Technology, Delhi, where I collaborated with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en). 
 
-More recently, I served as a Research Assistant at the Indian Institute of Technology, Delhi, working with [Dr. Tanmoy Chakraborty](https://scholar.google.co.in/citations?user=C5S9JnIAAAAJ&hl=en).
+More recently, I served as a Research Assistant at the Indian Institute of Technology, Delhi, working with [Dr. Tanmoy Chakraborty](https://scholar.google.co.in/citations?user=C5S9JnIAAAAJ&hl=en) on various projects.
 
 My research focuses on **reverse engineering Large Language Models (LLMs) through mechanistic interpretability** and **enhancing their reasoning capabilities**. I'm passionate about understanding the internal workings of LLMs and developing methods to improve their accuracy and efficiency, particularly in complex reasoning tasks.
 
