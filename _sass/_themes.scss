@@ -10,7 +10,7 @@
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$blue-color};
-  --global-hover-color: #{$purple-color};
+  --global-hover-color: #{$blue-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -74,7 +74,7 @@
   }
 }
 
-html[data-theme="dark"] {
+html[data-theme="light"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -119,7 +119,7 @@ html[data-theme="dark"] {
   }
 }
 
-html[data-theme-setting="dark"] {
+html[data-theme-setting="light"] {
   #light-toggle-system {
     display: none;
   }
