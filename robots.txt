@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/joykirat18/sitemap.xml
+Sitemap: https://joykirat18.github.io/sitemap.xml
