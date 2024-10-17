@@ -5,5 +5,5 @@ title: CV
 nav: true
 nav_order: 4
 newtab: true
-permalink: /assets/pdf/example_pdf.pdf
+permalink: /assets/pdf/joykirat_resume_phd.pdf
 ---
