@@ -15,7 +15,17 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I’m **Joykirat Singh**, currently a **Research Fellow at Microsoft Research India**, working under the mentorship of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en).
+
+I’m **Joykirat Singh**, an upcoming PhD student in the Computer Science Department at the **University of North Carolina at Chapel Hill** and will be advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Currently I am working at **Microsoft Research India as a Research Fellow**, working under the mentorship of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). 
+
+My research interest lies in building **Interpretable AI models that have reasoning capabilities**. Study how does LLM’s behavior emerge as a function o fits training data and how doe internal mechanisms evolve/emerge during training. I also want to focus on the reasoning capabilities of LLMs and explore if models can truly reason and do long horizon planning without relying on biased priors and pattern recognition. Furthermore, research on building AI systems that improve their reasoning capabilities while minimizing the reliance on superficial patterns learned during pre-training. 
+
+I graduated in 2023 with a B.Tech in Computer Science and Design with a silver medal for academic excellance from the Indraprastha Institute of Information Technology (IIIT), Delhi, where I had the opportunity to collaborate with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en).
+
+Previously, I served as a **Research Assistant** at the **Indian Institute of Technology (IIT) Delhi**, working alongside [Dr. Tanmoy Chakraborty](https://scholar.google.co.in/citations?user=C5S9JnIAAAAJ&hl=en) and [Dr. Soumen Chakrabarti](https://scholar.google.com/citations?user=LfF2zfQAAAAJ&hl=en) on various research projects.
+
+
+<!-- I’m **Joykirat Singh**, currently a **Research Fellow at Microsoft Research India**, working under the mentorship of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en).
 
 I graduated in 2023 with a B.Tech in Computer Science and Design with a silver medal for academic excellance from the Indraprastha Institute of Information Technology (IIIT), Delhi, where I had the opportunity to collaborate with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en).
 
@@ -23,7 +33,7 @@ Previously, I served as a **Research Assistant** at the **Indian Institute of Te
 
 I have also worked as a Software Developer at Expedia, where I developed and maintained backend payment services. Additionally, during the summer of 2021, I was a student developer with **Google Summer of Code**.
 
-My research primarily focuses on **reverse engineering Large Language Models (LLMs)** through mechanistic interpretability, **enhancing their reasoning capabilities** and **exploring their self-evaluating and self-correcting abilities** to enable learning through feedback. I’m passionate about understanding the internal workings of LLMs and developing methods to improve their accuracy and efficiency, particularly in complex reasoning tasks.
+My research primarily focuses on **reverse engineering Large Language Models (LLMs)** through mechanistic interpretability, **enhancing their reasoning capabilities** and **exploring their self-evaluating and self-correcting abilities** to enable learning through feedback. I’m passionate about understanding the internal workings of LLMs and developing methods to improve their accuracy and efficiency, particularly in complex reasoning tasks. -->
 
 <!-- I'm **Joykirat Singh**, currently a Research Fellow at Microsoft Research India, working under the guidance of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). I graduated in 2023 with a Bachelor's degree from the Indraprastha Institute of Information Technology, Delhi, where I collaborated with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en). 
 
