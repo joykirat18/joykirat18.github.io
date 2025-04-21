@@ -25,7 +25,10 @@ I have also worked as a Software Developer at Expedia, where I developed and mai
 
 My research primarily focuses on **reverse engineering Large Language Models (LLMs)** through mechanistic interpretability, **enhancing their reasoning capabilities** and **exploring their self-evaluating and self-correcting abilities** to enable learning through feedback. I’m passionate about understanding the internal workings of LLMs and developing methods to improve their accuracy and efficiency, particularly in complex reasoning tasks.
 
-<!-- I'm **Joykirat Singh**, currently a Research Fellow at Microsoft Research India, working under the guidance of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). I graduated in 2023 with a Bachelor's degree from the Indraprastha Institute of Information Technology, Delhi, where I collaborated with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en). 
+<!-- I'm **Joykirat Singh**, currently a Research Fellow at Microsoft Research India, working under the guidance of [Dr. Akshay Nambi](https://scholar.google.com/cit
+
+
+ations?user=QolzyE4AAAAJ&hl=en). I graduated in 2023 with a Bachelor's degree from the Indraprastha Institute of Information Technology, Delhi, where I collaborated with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en). 
 
 More recently, I served as a Research Assistant at the Indian Institute of Technology, Delhi, working with [Dr. Tanmoy Chakraborty](https://scholar.google.co.in/citations?user=C5S9JnIAAAAJ&hl=en) on various projects.
 
