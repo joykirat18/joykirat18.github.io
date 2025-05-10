@@ -5,6 +5,7 @@
 @use "sass:color";
 
 :root {
+  color-scheme: light;
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -56,10 +57,11 @@
     display: none;
   }
 
-  .repo-img-light {
+  .only-light {
     display: block;
   }
-  .repo-img-dark {
+
+  .only-dark {
     display: none;
   }
 
@@ -111,10 +113,11 @@ html[data-theme="light"] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  .repo-img-light {
+  .only-light {
     display: none;
   }
-  .repo-img-dark {
+
+  .only-dark {
     display: block;
   }
 }
