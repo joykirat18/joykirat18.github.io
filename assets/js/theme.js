@@ -267,13 +267,13 @@ let determineComputedTheme = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
     const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
+    if (userPref && userPref("(prefers-color-scheme: light)").matches) {
       return "dark";
     } else {
       return "light";
     }
   } else {
-    return themeSetting;
+    return "light";
   }
 };
 
