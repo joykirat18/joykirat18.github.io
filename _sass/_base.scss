@@ -35,6 +35,13 @@ table {
   }
 }
 
+#news-box {
+    background-color: var(--global-news-box-color);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+
 a,
 table.table a {
   color: var(--global-theme-color);
