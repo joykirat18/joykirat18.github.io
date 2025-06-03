@@ -3,10 +3,11 @@
 
 @string{aps = {American Physical Society,}}
 
+
 @article{singh2025agenticreasoningtoolintegration,
   title={Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning},
   author={Singh, Joykirat and Magazine, Raghav and Pandya, Yash and Nambi, Akshay},
-  journal={arXiv preprint arXiv:2505.01441},
+  journal={Preprint},
   year={2025},
   selected={true},
   abstract={Large language models (LLMs) have achieved remarkable progress in complex reasoning tasks, yet they remain fundamentally limited by their reliance on static internal knowledge and text-only reasoning. Real-world problem solving often demands dynamic, multi-step reasoning, adaptive decision making, and the ability to interact with external tools and environments. In this work, we introduce ARTIST (Agentic Reasoning and Tool Integration in Self-improving Transformers), a unified framework that tightly couples agentic reasoning, reinforcement learning, and tool integration for LLMs. ARTIST enables models to autonomously decide when, how, and which tools to invoke within multi-turn reasoning chains, leveraging outcome-based RL to learn robust strategies for tool use and environment interaction without requiring step-level supervision. Extensive experiments on mathematical reasoning and multi-turn function calling benchmarks show that ARTIST consistently outperforms state-of-the-art baselines, with up to 22% absolute improvement over base models and strong gains on the most challenging tasks. Detailed studies and metric analyses reveal that agentic RL training leads to deeper reasoning, more effective tool use, and higher-quality solutions. Our results establish agentic RL with tool integration as a powerful new frontier for robust, interpretable, and generalizable problem-solving in LLMs.},
@@ -18,13 +19,50 @@
 @article{singh2025self,
   title={Self-Evolved Preference Optimization for Enhancing Mathematical Reasoning in Small Language Models},
   author={Singh, Joykirat and Chakraborty, Tanmoy and Nambi, Akshay},
-  journal={arXiv preprint arXiv:2503.04813},
+  journal={Preprint},
   year={2025},
   selected={true},
   abstract={Large language models (LLMs) have significantly improved their reasoning capabilities; however, they still struggle with complex multi-step mathematical problemsolving due to error propagation, lack of self-correction, and limited adaptability to diverse reasoning styles. Existing methods rely on static fine-tuning or prompt engineering, which fail to generalize across problem complexities, while the scarcity of high-quality preference data further hinders reliable reasoning. We introduce SPHERE, a self-evolving data generation pipeline that enhances reasoning in small language models (SLMs) by iteratively generating, correcting, and diversifying reasoning chains. SPHERE operates in three stages: (i) SelfGeneration, where the model autonomously constructs problem-solving steps; (ii) Self-Correction, enabling it to identify and rectify errors; and (iii) Diversity Induction, improving robustness through multiple valid reasoning trajectories. This self-evolution mechanism strengthens mathematical reasoning and enhances model reliability. Evaluations on MATH 500, GSM8K, AIME, AMC, and Olympiad show that SPHERE-trained models achieve significant gains over their base versions and match/surpass GPT-4o on certain benchmarks. Our findings demonstrate that selfevolving models can close the reasoning gap between SLMs and state-of-the-art LLMs, making mathematical AI more reliable, scalable, and efficient.},
   arxiv={2503.04813},
   preview={self.png},
   award_name={Preprint},
+}
+
+@article{singh2024exposing,
+  title={Exposing the Achilles' Heel: Evaluating LLMs Ability to Handle Mistakes in Mathematical Reasoning},
+  author={Singh, Joykirat and Nambi, Akshay and Vineet, Vibhav},
+  year={2024},
+  selected={true},
+  abstract={Large Language Models (LLMs) have transformed the approach to solving Math Word Problems (MWPs), especially in educational domains. However, current evaluations focus heavily on final answer accuracy, often neglecting the critical aspect of reasoning. This work addresses that gap by assessing LLMs’ abilities to detect and correct reasoning mistakes. We introduce a novel dataset, MWP-MISTAKE, which includes MWPs with both correct and incorrect reasoning steps generated via rule-based methods and smaller language models. Our benchmarking provides key insights into the strengths and weaknesses of state-of-the-art models, including closed-source, open-source, and fine-tuned variants. While GPT-4o consistently outperforms other models like GPT-4 , GPT-3.5Turbo , and smaller models, it still struggles to reliably detect mistakes across simple and complex problems. The significant performance drop on more challenging, unseen problems underscores the limitations of current LLMs in handling deeper reasoning tasks, revealing a need for improved generalization and robustness.14},
+  award_name={ACL Main 2025},
+  award={Accepeted at ACL Main 2025},
+  preview={reasoning.png},
+  arxiv={2406.10834},
+}
+
+@article{agarwal2024promptwizard,
+  title={PromptWizard: Task-Aware Agent-driven Prompt Optimization Framework},
+  author={Agarwal, Eshaan and Singh, Joykirat and Dani, Vivek and Magazine, Raghav and Ganu, Tanuja and Nambi, Akshay},
+  year={2024},
+  selected={true},
+  abstract={Large language models (LLMs) have transformed AI across diverse domains, with prompting being central to their success in guiding model outputs. However, man- ual prompt engineering is both labor-intensive and domain-specific, necessitating the need for automated solutions. We introduce PromptWizard, a novel, fully automated framework for discrete prompt optimization, utilizing a self-evolving, self-adapting mechanism. Through a feedback-driven critique and synthesis pro- cess, PromptWizard achieves an effective balance between exploration and ex- ploitation, iteratively refining both prompt instructions and in-context examples to generate human-readable, task-specific prompts. This guided approach systemati- cally improves prompt quality, resulting in superior performance across 45 tasks. PromptWizard excels even with limited training data, smaller LLMs, and various LLM architectures. Additionally, our cost analysis reveals a substantial reduction in API calls, token usage, and overall cost, demonstrating PromptWizard’s efficiency, scalability, and advantages over existing prompt optimization strategies.},
+  award_name={ACL Findings 2025},
+  award={Accepeted at ACL Findings 2025},
+  arxiv={2405.18369},
+  preview={PW.png}
+}
+
+@article{singh2024mechanistic,
+  title={Mechanistic Behavior Editing of Language Models},
+  author={Singh*, Joykirat and Dutta*, Subhabrata and Chakraborty, Tanmoy},
+  journal={Preprint},
+  year={2024},
+  selected={true},
+  abstract={Large Language Models trained on web-scale text acquire language generation abilities that can solve a wide range of tasks, particularly when task knowledge is refined into the generative prior using in-context examples. However, spuri- ous features learned from noisy data hinder their generalizability. Supervised finetuning can introduce task specificity, but introduce data inefficiency. Prior studies indicate that (i) noisy neural circuitries coexist with generalizable ones within LLMs, and (ii) finetuning typically enhances (or suppresses) existing abil- ities without introducing newer ones. Building upon these, we propose TaRot, a novel method for task adaptation. TaRot intervenes in the neural circuitries using learnable rotation matrices that are optimized using Bayesian Optimiza- tion, on labelled samples in the order of standard few-shot prompting exam- ples. Experiments on multiple classification and generation tasks using LLMs of varying sizes reveal the efficacy of TaRot, improving upon both zero- as well as few-shot performance, with average improvements (across models and tasks) of 23.81% and 11.15%, respectively.},
+  award_name={Preprint},
+  preview={behaviorEditing.png},
+      annotation={* Equal Contribution},
+      arxiv={2410.04277}
 }
 
 @article{dutta2024think,
@@ -59,24 +97,11 @@
 
 }
 
-@article{singh2024exposing,
-  title={Exposing the Achilles' Heel: Evaluating LLMs Ability to Handle Mistakes in Mathematical Reasoning},
-  author={Singh, Joykirat and Nambi, Akshay and Vineet, Vibhav},
-  journal={arXiv preprint arXiv:2406.10834},
-  year={2024},
-  selected={true},
-  abstract={Large Language Models (LLMs) have transformed the approach to solving Math Word Problems (MWPs), especially in educational domains. However, current evaluations focus heavily on final answer accuracy, often neglecting the critical aspect of reasoning. This work addresses that gap by assessing LLMs’ abilities to detect and correct reasoning mistakes. We introduce a novel dataset, MWP-MISTAKE, which includes MWPs with both correct and incorrect reasoning steps generated via rule-based methods and smaller language models. Our benchmarking provides key insights into the strengths and weaknesses of state-of-the-art models, including closed-source, open-source, and fine-tuned variants. While GPT-4o consistently outperforms other models like GPT-4 , GPT-3.5Turbo , and smaller models, it still struggles to reliably detect mistakes across simple and complex problems. The significant performance drop on more challenging, unseen problems underscores the limitations of current LLMs in handling deeper reasoning tasks, revealing a need for improved generalization and robustness.14},
-  award_name={ACL Main 2025},
-  award={Accepeted at ACL Main 2025},
-  preview={reasoning.png},
-  arxiv={2406.10834},
 
-}
 
 @article{singh2024eros,
   title={EROS: Entity-Driven Controlled Policy Document Summarization},
   author={Singh*, Joykirat and Fazili*, Sehban and Jain, Rohan and Akhtar, Md Shad},
-  journal={arXiv preprint arXiv:2403.00141},
   year={2024},
   selected={true},
   abstract={Privacy policy documents have a crucial role in educating individuals about the collection, usage, and protection of users’ personal data by organizations. However, they are notorious for their lengthy, complex, and convoluted language especially involving privacy-related entities. Hence, they pose a significant challenge to users who attempt to comprehend organization’s data usage policy. In this paper, we propose to enhance the interpretability and readability of policy documents by using controlled abstractive summarization – we enforce the generated summaries to include critical privacy-related entities (e.g., data and medium) and organization’s rationale (e.g., target and reason) in collecting those entities. To achieve this, we develop PD-Sum, a policy-document summarization dataset with marked privacy-related entity labels. Our proposed model, EROS, identifies critical entities through a span-based entity extraction model and employs them to control the information content of the summaries using proximal policy optimization (PPO). Comparison shows encouraging improvement over various baselines. Furthermore, we furnish qualitative and human evaluations to establish the efficacy of EROS.},
@@ -86,31 +111,7 @@
       annotation={* Equal Contribution},
       arxiv={2403.00141}
 
-
-}
-@article{singh2024mechanistic,
-  title={Mechanistic Behavior Editing of Language Models},
-  author={Singh*, Joykirat and Dutta*, Subhabrata and Chakraborty, Tanmoy},
-  journal={arXiv preprint arXiv:2410.04277},
-  year={2024},
-  selected={true},
-  abstract={Large Language Models trained on web-scale text acquire language generation abilities that can solve a wide range of tasks, particularly when task knowledge is refined into the generative prior using in-context examples. However, spuri- ous features learned from noisy data hinder their generalizability. Supervised finetuning can introduce task specificity, but introduce data inefficiency. Prior studies indicate that (i) noisy neural circuitries coexist with generalizable ones within LLMs, and (ii) finetuning typically enhances (or suppresses) existing abil- ities without introducing newer ones. Building upon these, we propose TaRot, a novel method for task adaptation. TaRot intervenes in the neural circuitries using learnable rotation matrices that are optimized using Bayesian Optimiza- tion, on labelled samples in the order of standard few-shot prompting exam- ples. Experiments on multiple classification and generation tasks using LLMs of varying sizes reveal the efficacy of TaRot, improving upon both zero- as well as few-shot performance, with average improvements (across models and tasks) of 23.81% and 11.15%, respectively.},
-  award_name={Preprint},
-  preview={behaviorEditing.png},
-      annotation={* Equal Contribution},
-      arxiv={2410.04277}
-
 }
 
-@article{agarwal2024promptwizard,
-  title={PromptWizard: Task-Aware Agent-driven Prompt Optimization Framework},
-  author={Agarwal, Eshaan and Singh, Joykirat and Dani, Vivek and Magazine, Raghav and Ganu, Tanuja and Nambi, Akshay},
-  journal={arXiv preprint arXiv:2405.18369},
-  year={2024},
-  selected={true},
-  abstract={Large language models (LLMs) have transformed AI across diverse domains, with prompting being central to their success in guiding model outputs. However, man- ual prompt engineering is both labor-intensive and domain-specific, necessitating the need for automated solutions. We introduce PromptWizard, a novel, fully automated framework for discrete prompt optimization, utilizing a self-evolving, self-adapting mechanism. Through a feedback-driven critique and synthesis pro- cess, PromptWizard achieves an effective balance between exploration and ex- ploitation, iteratively refining both prompt instructions and in-context examples to generate human-readable, task-specific prompts. This guided approach systemati- cally improves prompt quality, resulting in superior performance across 45 tasks. PromptWizard excels even with limited training data, smaller LLMs, and various LLM architectures. Additionally, our cost analysis reveals a substantial reduction in API calls, token usage, and overall cost, demonstrating PromptWizard’s efficiency, scalability, and advantages over existing prompt optimization strategies.},
-  award_name={ACL Findings 2025},
-  award={Accepeted at ACL Findings 2025},
-  arxiv={2405.18369},
-  preview={PW.png}
-}
+
+

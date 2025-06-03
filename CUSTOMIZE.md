@@ -2,39 +2,8 @@
 
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
-## Table of Contents
-
 <!--ts-->
-
-- [Customize](#customize)
-  - [Table of Contents](#table-of-contents)
-  - [Project structure](#project-structure)
-  - [Configuration](#configuration)
-  - [Modifying the CV information](#modifying-the-cv-information)
-  - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
-  - [Creating new pages](#creating-new-pages)
-  - [Creating new blog posts](#creating-new-blog-posts)
-  - [Creating new projects](#creating-new-projects)
-  - [Adding some news](#adding-some-news)
-  - [Adding Collections](#adding-collections)
-  - [Adding a new publication](#adding-a-new-publication)
-    - [Author annotation](#author-annotation)
-    - [Buttons (through custom bibtex keywords)](#buttons-through-custom-bibtex-keywords)
-  - [Changing theme color](#changing-theme-color)
-  - [Adding social media information](#adding-social-media-information)
-  - [Adding a newsletter](#adding-a-newsletter)
-  - [Removing content](#removing-content)
-    - [Removing the blog page](#removing-the-blog-page)
-    - [Removing the news section](#removing-the-news-section)
-    - [Removing the projects page](#removing-the-projects-page)
-    - [Removing the publications page](#removing-the-publications-page)
-    - [Removing the repositories page](#removing-the-repositories-page)
-  - [Adding Token for Lighthouse Badger](#adding-token-for-lighthouse-badger)
-    - [Personal Access Token (fine-grained) Permissions for Lighthouse Badger:](#personal-access-token-fine-grained-permissions-for-lighthouse-badger)
-  - [Customizing fonts, spacing, and more](#customizing-fonts-spacing-and-more)
-  - [Scheduled Posts](#scheduled-posts)
-    - [Name Format](#name-format)
-    - [Important Notes](#important-notes)
+<!--te-->
 
 ## Project structure
 
@@ -134,7 +103,7 @@ scholar:
   first_name: [Albert, A.]
 ```
 
-If the entry matches one form of the last names and the first names, it will be underlined. Keep meta-information about your co-authors in [\_data/coauthors.yml](_data/coauthors.yml) and Jekyll will insert links to their webpages automatically. The co-author data format is as follows,
+If the entry matches one form of the last names and the first names, it will be underlined. Keep meta-information about your co-authors in [\_data/coauthors.yml](_data/coauthors.yml) and Jekyll will insert links to their webpages automatically. The co-author data format is as follows, with the last names lower cased and without accents as the key:
 
 ```yaml
 "adams":
