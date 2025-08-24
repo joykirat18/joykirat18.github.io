@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m **Joykirat Singh**, an incoming PhD student in the Computer Science Department at the **University of North Carolina at Chapel Hill** and will be advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Currently I am working at **Microsoft Research India as a Research Fellow**, working under the mentorship of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). 
+I’m **Joykirat Singh**, an first year PhD student in the Computer Science Department at the **University of North Carolina at Chapel Hill** and will be advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/). Currently I am working at **Microsoft Research India as a Research Fellow**, working under the mentorship of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). 
 
 My research interest lies in building **Interpretable AI models that have reasoning capabilities**. Study how does LLM’s behavior emerge as a function o fits training data and how doe internal mechanisms evolve/emerge during training. I also want to focus on the reasoning capabilities of LLMs and explore if models can truly reason and do long horizon planning without relying on biased priors and pattern recognition. Furthermore, research on building AI systems that improve their reasoning capabilities while minimizing the reliance on superficial patterns learned during pre-training. 
 
