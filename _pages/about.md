@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Fellow, Microsoft Research
 
 profile:
   align: right
