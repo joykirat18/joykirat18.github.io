@@ -3,17 +3,28 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{singh2025thinkrightlearningmitigate,
+    title={Think Right: Learning to Mitigate Under-Over Thinking via Adaptive, Attentive Compression}, 
+    author={Joykirat Singh and Justin Chih-Yao Chen and Archiki Prasad and Elias Stengel-Eskin and Akshay Nambi and Mohit Bansal},
+    year={2025},
+    journal={Preprint},
+    arxiv={2510.01581},
+    selected={true},
+    abstract={Recent thinking models solve complex reasoning tasks by scaling test-time compute, but this scaling must be allocated in line with task difficulty. On one hand, short reasoning (underthinking) leads to errors on harder problems that require extended reasoning steps; but, excessively long reasoning (overthinking) can be token-inefficient, generating unnecessary steps even after reaching a correct intermediate solution. We refer to this as under-adaptivity, where the model fails to modulate its response length appropriately given problems of varying difficulty. To address under-adaptivity and strike a balance between under- and overthinking, we propose TRAAC (Think Right with Adaptive, Attentive Compression), an online post-training RL method that leverages the model's self-attention over a long reasoning trajectory to identify important steps and prune redundant ones. TRAAC also estimates difficulty and incorporates it into training rewards, thereby learning to allocate reasoning budget commensurate with example difficulty. Our approach improves accuracy, reduces reasoning steps, and enables adaptive thinking compared to base models and other RL baselines. Across a variety of tasks (AIME, AMC, GPQA-D, BBEH), TRAAC (Qwen3-4B) achieves an average absolute accuracy gain of 8.4% with a relative reduction in reasoning length of 36.8% compared to the base model, and a 7.9% accuracy gain paired with a 29.4% length drop compared to the best RL baseline. TRAAC also shows strong generalization: although our models are trained on math datasets, they show accuracy and efficiency gains on out-of-distribution non-math datasets like GPQA-D, BBEH, and OptimalThinkingBench. Our analysis further verifies that TRAAC provides fine-grained adjustments to thinking budget based on difficulty and that a combination of task-difficulty calibration and attention-based compression yields gains across diverse tasks.},
+    preview={traac.png},
+    award_name={Preprint},
+}
 
 @article{singh2025agenticreasoningtoolintegration,
   title={Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning},
   author={Singh, Joykirat and Magazine, Raghav and Pandya, Yash and Nambi, Akshay},
-  journal={Preprint},
+  journal={NeurIPS 2025 Workshop (FoRLM)},
   year={2025},
   selected={true},
   abstract={Large language models (LLMs) have achieved remarkable progress in complex reasoning tasks, yet they remain fundamentally limited by their reliance on static internal knowledge and text-only reasoning. Real-world problem solving often demands dynamic, multi-step reasoning, adaptive decision making, and the ability to interact with external tools and environments. In this work, we introduce ARTIST (Agentic Reasoning and Tool Integration in Self-improving Transformers), a unified framework that tightly couples agentic reasoning, reinforcement learning, and tool integration for LLMs. ARTIST enables models to autonomously decide when, how, and which tools to invoke within multi-turn reasoning chains, leveraging outcome-based RL to learn robust strategies for tool use and environment interaction without requiring step-level supervision. Extensive experiments on mathematical reasoning and multi-turn function calling benchmarks show that ARTIST consistently outperforms state-of-the-art baselines, with up to 22% absolute improvement over base models and strong gains on the most challenging tasks. Detailed studies and metric analyses reveal that agentic RL training leads to deeper reasoning, more effective tool use, and higher-quality solutions. Our results establish agentic RL with tool integration as a powerful new frontier for robust, interpretable, and generalizable problem-solving in LLMs.},
   arxiv={2505.01441},
   preview={artist.png},
-  award_name={Preprint},
+  award_name={Accepted at NeurIPS 2025 Workshop (FoRLM)},
 }
 
 @article{singh2025self,
