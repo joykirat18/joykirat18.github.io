@@ -14,11 +14,11 @@ profiles:
     content: about_joykirat.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>new Delhi, India</p>
+      <p>Chapel Hill, NC</p>
   - align: left
     image: prof_pic.jpg
     content: about_joykirat.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>New Delhi, India</p>
+      <p>Chapel Hill, NC</p>
 ---
