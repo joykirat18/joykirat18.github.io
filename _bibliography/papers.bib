@@ -3,6 +3,32 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{agarwal2026learning,
+  title={Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use},
+  author={Agarwal, Aradhye and Siyan, Gurdit and Pandya, Yash and Singh, Joykirat and Nambi, Akshay and Awadallah, Ahmed},
+  year={2026},
+  journal={ICML},
+  selected={true},
+  abstract={Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actions where a single misstep, such as accessing files or entering credentials, can cause irreversible harm. Existing alignment methods, largely optimized for static generation and task completion, break down in these settings due to sequential decision-making, adversarial tool feedback, and overconfident intermediate reasoning. We introduce MOSAIC, a post-training framework that aligns agents for safe multi-step tool use by making safety decisions explicit and learnable. MOSAIC structures inference as a plan, check, then act or refuse loop, with explicit safety reasoning and refusal as first-class actions. To train without trajectory-level labels, we use preference-based reinforcement learning with pairwise trajectory comparisons, which captures safety distinctions often missed by scalar rewards. We evaluate MOSAIC zero-shot across three model families, Qwen2.5-7B, Qwen3-4B-Thinking, and Phi-4, and across out-of-distribution benchmarks spanning harmful tasks, prompt injection, benign tool use, and cross-domain privacy leakage. MOSAIC reduces harmful behavior by up to 50%, increases harmful-task refusal by over 20% on injection attacks, cuts privacy leakage, and preserves or improves benign task performance, demonstrating robust generalization across models, domains, and agentic settings.},
+  arxiv={2603.03205},
+  preview={mosaic.png},
+  award_name={Accepted at ICML 2026},
+  award={ICML 2026},
+}
+
+@article{chen2026cog,
+  title={Cog-DRIFT: Exploration on Adaptively Reformulated Instances Enables Learning from Hard Reasoning Problems},
+  author={Chen, Justin Chih-Yao and Prasad, Archiki and Khan, Zaid and Singh, Joykirat and Tian, Runchu and Stengel-Eskin, Elias and Bansal, Mohit},
+  journal={Preprint},
+  year={2026},
+  selected={true},
+  abstract={Reinforcement learning from verifiable rewards (RLVR) has improved the reasoning abilities of LLMs, yet a fundamental limitation remains: models cannot learn from problems that are too difficult to solve under their current policy, as these yield no meaningful reward signal. We propose a simple yet effective solution based on task reformulation. We transform challenging open-ended problems into cognitively simpler variants -- such as multiple-choice and cloze formats -- that preserve the original answer while reducing the effective search space and providing denser learning signals. These reformulations span a spectrum from discriminative to generative tasks, which we exploit to bootstrap learning: models first learn from structured, easier formats, and this knowledge transfers back to improve performance on the original open-ended problems. Building on this insight, we introduce Cog-DRIFT, a framework that constructs reformulated variants and organizes them into an adaptive curriculum based on difficulty. Training progresses from easier to harder formats, enabling the model to learn from problems that previously yielded zero signal under standard RL post-training. Cog-DRIFT not only improves on the originally unsolvable hard problems (absolute +10.11% for Qwen and +8.64% for Llama) but also generalizes well to other held-out datasets. Across 2 models and 6 reasoning benchmarks, our method consistently outperforms standard GRPO and strong guided-exploration baselines. On average, Cog-DRIFT shows +4.72% (Qwen) and +3.23% (Llama) improvements over the second-best baseline. We further show that Cog-DRIFT improves pass@k at test time, and the curriculum improves sample efficiency. Overall, our results highlight task reformulation and curriculum learning as an effective paradigm for overcoming the exploration barrier in LLM post-training.},
+  arxiv={2604.04767},
+  preview={cogdrift.png},
+  award_name={Preprint},
+}
+
+
 @misc{singh2025thinkrightlearningmitigate,
     title={Think Right: Learning to Mitigate Under-Over Thinking via Adaptive, Attentive Compression}, 
     author={Joykirat Singh and Justin Chih-Yao Chen and Archiki Prasad and Elias Stengel-Eskin and Akshay Nambi and Mohit Bansal},
@@ -15,20 +41,6 @@
     award_name={Preprint},
 }
 
-
-@article{agarwal2026learning,
-  title={Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use},
-  author={Agarwal, Aradhye and Siyan, Gurdit and Pandya, Yash and Singh, Joykirat and Nambi, Akshay and Awadallah, Ahmed},
-  year={2026},
-  journal={ICML 2026},
-  selected={true},
-  abstract={Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actions where a single misstep, such as accessing files or entering credentials, can cause irreversible harm. Existing alignment methods, largely optimized for static generation and task completion, break down in these settings due to sequential decision-making, adversarial tool feedback, and overconfident intermediate reasoning. We introduce MOSAIC, a post-training framework that aligns agents for safe multi-step tool use by making safety decisions explicit and learnable. MOSAIC structures inference as a plan, check, then act or refuse loop, with explicit safety reasoning and refusal as first-class actions. To train without trajectory-level labels, we use preference-based reinforcement learning with pairwise trajectory comparisons, which captures safety distinctions often missed by scalar rewards. We evaluate MOSAIC zero-shot across three model families, Qwen2.5-7B, Qwen3-4B-Thinking, and Phi-4, and across out-of-distribution benchmarks spanning harmful tasks, prompt injection, benign tool use, and cross-domain privacy leakage. MOSAIC reduces harmful behavior by up to 50%, increases harmful-task refusal by over 20% on injection attacks, cuts privacy leakage, and preserves or improves benign task performance, demonstrating robust generalization across models, domains, and agentic settings.},
-  arxiv={2603.03205},
-  preview={mosaic.png},
-  award_name={Accepted at ICML 2026},
-
-}
-
 @article{singh2025agenticreasoningtoolintegration,
   title={Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning},
   author={Singh, Joykirat and Magazine, Raghav and Pandya, Yash and Nambi, Akshay},
@@ -39,6 +51,7 @@
   arxiv={2505.01441},
   preview={artist.png},
   award_name={Accepted at NeurIPS 2025 Workshop (FoRLM)},
+  award={NeurIPS 2025 Workshop (FoRLM)},
 }
 
 @article{singh2025self,
