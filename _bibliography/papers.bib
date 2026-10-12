@@ -3,6 +3,33 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{lee2026balancingmemorypathways,
+      title={Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs},
+      author={Hyunji Lee and Joykirat Singh and Zaid Khan and Justin Chih-Yao Chen and Elias Stengel-Eskin and Alessandro Sordoni and Arman Cohan and Mohit Bansal},
+      year={2026},
+      journal={Preprint},
+      arxiv={2610.06750},
+      code={https://github.com/amy-hyunji/Balancing-Memory-Pathways},
+      preview={memorypathways.png},
+      selected={true},
+      abstract={Recurrent-attention hybrid language models (LMs), which interleave attention and recurrent layers, are increasingly used to combine the efficiency of the recurrent layers with the strong performance of attention layers. Prior work suggests that attention and recurrent layers offer complementary pathways to use past information: attention supports precise memory recall from earlier tokens, while recurrent layers support consolidation of disparate information over long contexts. However, we observe that simply having access to both pathways does not mean that hybrid LMs are effectively using them. We find that they rely substantially more on attention than on the recurrent state. Standard supervised fine-tuning improves overall performance but does not improve how the two memory pathways are coordinated: the model becomes more reliant on information propagated by attention layers, while its use of information propagated by recurrent layers remains limited. To encourage better coordination between the two memory pathways, we add an auxiliary loss that limits attention's access to earlier context while the recurrent state propagates through the full sequence. This objective encourages the model to retain and use information through the recurrent pathway alongside attention. It improves overall performance, with particularly strong gains on tasks involving longer contexts or requiring information aggregation, consistent with the strengths of recurrent layers observed in analysis. Crucially, this imbalance and the benefit of our auxiliary loss generalize: they apply to multiple recurrent-attention LMs in question-answering and agentic tasks, as well as to attention-based LMs that combine different forms of memory. Together, our findings show that simply providing multiple memory pathways does not ensure their effective use, and that targeted supervision is needed to better coordinate them.},
+      award_name={Preprint},
+}
+
+@article{lee2026minteval,
+      title={MINTEval: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems},
+      author={Hyunji Lee and Justin Chih-Yao Chen and Joykirat Singh and Zaid Khan and Elias Stengel-Eskin and Mohit Bansal},
+      year={2026},
+      journal={NeurIPS},
+      arxiv={2605.18565},
+      code={https://github.com/amy-hyunji/MINTEval},
+      preview={minteval.png},
+      selected={true},
+      abstract={Real-world agents operate over long and evolving horizons, where information is repeatedly updated and may interfere across memories, requiring accurate recall and aggregated reasoning over multiple pieces of information. However, existing benchmarks focus on static, independent recall and fail to capture these dynamic interactions between evolving memories. In this paper, we study how current memory-augmented agents perform in realistic, interference-heavy, long-horizon settings across diverse domains and question types. We introduce MINTEval (Long-Horizon Memory under INTerference Evaluation), a benchmark featuring (1) long, highly interconnected contexts with frequently updated information that induces substantial interference, (2) diverse domains (state tracking, multi-turn dialogue, Wikipedia revisions, and GitHub commits), enabling evaluation of domain generalization, and (3) diverse question types that assess robustness to interference, including (i) single-target recall tasks requiring retrieval of a specific target from long contexts, and (ii) multi-target aggregation tasks requiring reasoning over multiple relevant pieces of information. Overall, MINTEval has 15.6k question-answering pairs over long-horizon contexts averaging 138.8k tokens and extending up to 1.8M tokens per instance. We evaluate 7 representative systems, including vanilla long-context LLMs, RAG, and memory-augmented agent frameworks. Across all systems, we observe consistently low performance (avg. 27.9% accuracy), especially on questions requiring aggregated reasoning over multiple pieces of evidence. Our analysis shows that performance is primarily limited by retrieval and memory construction. Furthermore, current memory systems struggle to recall and reason over earlier facts that are revised or interfered with by subsequent context, with accuracy degrading as the number of intervening updates increases.},
+      award_name={NeurIPS 2026},
+      award={NeurIPS 2026},
+}
+
 @misc{singh2026agentbracedecouplingbeliefsactions,
       title={Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty}, 
       author={Joykirat Singh and Zaid Khan and Archiki Prasad and Justin Chih-Yao Chen and Akshay Nambi and Hyunji Lee and Elias Stengel-Eskin and Mohit Bansal},

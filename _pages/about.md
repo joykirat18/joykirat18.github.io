@@ -23,11 +23,11 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I’m **Joykirat Singh**, a first-year PhD student in the Computer Science Department at the **University of North Carolina at Chapel Hill**, where I am advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/). 
+I’m **Joykirat Singh**, a second-year PhD student in the Computer Science Department at the **University of North Carolina at Chapel Hill**, where I am advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/). 
 
 Previously, I worked at **Microsoft Research India as a Research Fellow**, under the mentorship of [Dr. Akshay Nambi](https://scholar.google.com/citations?user=QolzyE4AAAAJ&hl=en). 
 
-My research interests lie in building **interpretable AI models with reasoning capabilities**. I aim to study how the behavior of large language models (LLMs) emerges as a function of their training data, and how their internal mechanisms evolve or emerge during training. I am particularly interested in understanding whether LLMs can truly reason and perform long-horizon planning without relying on biased priors or superficial pattern recognition. Additionally, I want to develop AI systems that enhance their reasoning capabilities while minimizing their dependence on shallow patterns learned during pre-training.
+My research focuses on **reinforcement learning for reasoning and agentic large language models (LLMs)**. I am interested in post-training methods that help models reason more effectively and efficiently, such as adapting how much they think to the difficulty of a problem and learning from problems that are too hard for standard RL. More recently, I have been working on **LLM agents for long-horizon tasks**: training agents to use tools, track their beliefs and uncertainty in partially observable environments, and act safely during multi-step tool use. Overall, I aim to build reasoning agents that are capable, efficient, and reliable.
 
 I graduated in 2023 with a B.Tech in Computer Science and Design, receiving a silver medal for academic excellence from the Indraprastha Institute of Information Technology (IIIT), Delhi. During my undergraduate studies, I had the opportunity to collaborate with [Dr. Md Shad Akhtar](https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en).
 
